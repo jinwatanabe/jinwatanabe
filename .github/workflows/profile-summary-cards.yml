@@ -16,4 +16,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{  secrets.PERSONAL_ACCESS_TOKEN }}
         with:
-          USERNAME: ${{ jinwatanabe }}
+          USERNAME: ${{ github.repository_owner  }}
